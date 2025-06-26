@@ -124,7 +124,8 @@ func bubbleSort(arr []int) {
 
 	/*
 		Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent items, and swaps them if they are in the wrong order.
-
+		•	Outer Loop (i): Iterates through the entire array.
+		•	Inner Loop (j): Compares adjacent elements and swaps them if necessary.
 		Algorithm:
 		•	Compare each pair of adjacent items.
 		•	Swap them if they are in the wrong order.
@@ -151,6 +152,8 @@ func selectionSort(arr []int) {
 
 	/*
 		Selection Sort works by repeatedly finding the minimum element from the unsorted part and swapping it with the first unsorted element.
+		•	Outer Loop (i): Sets the position for the next smallest element.
+		•	Inner Loop (j): Finds the smallest element in the unsorted portion.
 
 		Algorithm:
 			•	Iterate through the array.
